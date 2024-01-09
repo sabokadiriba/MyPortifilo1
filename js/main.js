@@ -127,17 +127,7 @@
 			$this.find('.dropdown-menu').removeClass('show');
 		// }, 100);
 	});
-        function() {
-    var $this = $(this);
-    // timer;
-    // timer = setTimeout(function(){
-    $this.removeClass('show');
-    $this.find('> a').attr('aria-expanded', false);
-    // $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
-    $this.find('.dropdown-menu').removeClass('show');
-    // }, 100);
-});
-
+   
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
